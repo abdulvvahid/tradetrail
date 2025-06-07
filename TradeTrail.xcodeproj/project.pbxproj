@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B74EAEE2DF3DF0800D375BD /* TradeTrail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EAED2DF3DF0800D375BD /* TradeTrail.swift */; };
+		1B74EAF02DF3DF0800D375BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EAEF2DF3DF0800D375BD /* ContentView.swift */; };
+		1B74EAF22DF3DF0900D375BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B74EAF12DF3DF0900D375BD /* Assets.xcassets */; };
+		1B74EAF52DF3DF0900D375BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B74EAF42DF3DF0900D375BD /* Preview Assets.xcassets */; };
+		1B74EAFE2DF3E13800D375BD /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EAFD2DF3E13800D375BD /* DashboardView.swift */; };
+		1B74EB002DF3E15B00D375BD /* ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EAFF2DF3E15B00D375BD /* ImportView.swift */; };
+		1B74EB022DF3E17300D375BD /* TradeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB012DF3E17300D375BD /* TradeListView.swift */; };
+		1B74EB042DF3E18800D375BD /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB032DF3E18800D375BD /* ChartView.swift */; };
+		1B74EB062DF3E1A600D375BD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB052DF3E1A600D375BD /* SettingsView.swift */; };
+		1B74EB092DF3E33500D375BD /* TradeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB082DF3E33500D375BD /* TradeEntry.swift */; };
+		1B74EB0C2DF3E35200D375BD /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB0B2DF3E35200D375BD /* CSVParser.swift */; };
+		1B74EB0E2DF3E4C200D375BD /* TradeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB0D2DF3E4C200D375BD /* TradeStore.swift */; };
+		1B74EB112DF410B700D375BD /* TradeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB0F2DF410B700D375BD /* TradeModel.xcdatamodeld */; };
+		1B74EB132DF411C900D375BD /* TradeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB122DF411C900D375BD /* TradeRepository.swift */; };
+		1B74EB152DF411D700D375BD /* CoreDataTradeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB142DF411D700D375BD /* CoreDataTradeRepository.swift */; };
+		1B74EB182DF4120600D375BD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB172DF4120600D375BD /* Persistence.swift */; };
+		1B74EB1E2DF4151C00D375BD /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB1D2DF4151C00D375BD /* PersistenceController.swift */; };
+		1B74EB222DF42C7200D375BD /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB212DF42C7200D375BD /* String+Extensions.swift */; };
+		1B74EB242DF42FEE00D375BD /* TradeCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB232DF42FEE00D375BD /* TradeCalendarView.swift */; };
+		1B74EB282DF4365700D375BD /* Array+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74EB272DF4365700D375BD /* Array+Extentions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B74EAEA2DF3DF0800D375BD /* TradeTrail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeTrail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B74EAED2DF3DF0800D375BD /* TradeTrail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeTrail.swift; sourceTree = "<group>"; };
+		1B74EAEF2DF3DF0800D375BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B74EAF12DF3DF0900D375BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B74EAF42DF3DF0900D375BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B74EAF62DF3DF0900D375BD /* TradeTrail.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TradeTrail.entitlements; sourceTree = "<group>"; };
+		1B74EAFD2DF3E13800D375BD /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		1B74EAFF2DF3E15B00D375BD /* ImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportView.swift; sourceTree = "<group>"; };
+		1B74EB012DF3E17300D375BD /* TradeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeListView.swift; sourceTree = "<group>"; };
+		1B74EB032DF3E18800D375BD /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		1B74EB052DF3E1A600D375BD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1B74EB082DF3E33500D375BD /* TradeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeEntry.swift; sourceTree = "<group>"; };
+		1B74EB0B2DF3E35200D375BD /* CSVParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
+		1B74EB0D2DF3E4C200D375BD /* TradeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeStore.swift; sourceTree = "<group>"; };
+		1B74EB102DF410B700D375BD /* TradeModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TradeModel.xcdatamodel; sourceTree = "<group>"; };
+		1B74EB122DF411C900D375BD /* TradeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRepository.swift; sourceTree = "<group>"; };
+		1B74EB142DF411D700D375BD /* CoreDataTradeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTradeRepository.swift; sourceTree = "<group>"; };
+		1B74EB172DF4120600D375BD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1B74EB1D2DF4151C00D375BD /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		1B74EB212DF42C7200D375BD /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		1B74EB232DF42FEE00D375BD /* TradeCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeCalendarView.swift; sourceTree = "<group>"; };
+		1B74EB272DF4365700D375BD /* Array+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extentions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B74EAE72DF3DF0800D375BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B74EAE12DF3DF0800D375BD = {
+			isa = PBXGroup;
+			children = (
+				1B74EAEC2DF3DF0800D375BD /* TradeTrail */,
+				1B74EAEB2DF3DF0800D375BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B74EAEB2DF3DF0800D375BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B74EAEA2DF3DF0800D375BD /* TradeTrail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B74EAEC2DF3DF0800D375BD /* TradeTrail */ = {
+			isa = PBXGroup;
+			children = (
+				1B74EB162DF411E400D375BD /* Persistence */,
+				1B74EB0A2DF3E34400D375BD /* Utils */,
+				1B74EB072DF3E30E00D375BD /* Models */,
+				1B74EAFC2DF3E0D900D375BD /* Views */,
+				1B74EAED2DF3DF0800D375BD /* TradeTrail.swift */,
+				1B74EAF12DF3DF0900D375BD /* Assets.xcassets */,
+				1B74EAF62DF3DF0900D375BD /* TradeTrail.entitlements */,
+				1B74EAF32DF3DF0900D375BD /* Preview Content */,
+			);
+			path = TradeTrail;
+			sourceTree = "<group>";
+		};
+		1B74EAF32DF3DF0900D375BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B74EAF42DF3DF0900D375BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B74EAFC2DF3E0D900D375BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B74EAEF2DF3DF0800D375BD /* ContentView.swift */,
+				1B74EAFD2DF3E13800D375BD /* DashboardView.swift */,
+				1B74EAFF2DF3E15B00D375BD /* ImportView.swift */,
+				1B74EB012DF3E17300D375BD /* TradeListView.swift */,
+				1B74EB032DF3E18800D375BD /* ChartView.swift */,
+				1B74EB052DF3E1A600D375BD /* SettingsView.swift */,
+				1B74EB232DF42FEE00D375BD /* TradeCalendarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B74EB072DF3E30E00D375BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B74EB082DF3E33500D375BD /* TradeEntry.swift */,
+				1B74EB0D2DF3E4C200D375BD /* TradeStore.swift */,
+				1B74EB122DF411C900D375BD /* TradeRepository.swift */,
+				1B74EB142DF411D700D375BD /* CoreDataTradeRepository.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B74EB0A2DF3E34400D375BD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1B74EB0B2DF3E35200D375BD /* CSVParser.swift */,
+				1B74EB212DF42C7200D375BD /* String+Extensions.swift */,
+				1B74EB272DF4365700D375BD /* Array+Extentions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1B74EB162DF411E400D375BD /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				1B74EB0F2DF410B700D375BD /* TradeModel.xcdatamodeld */,
+				1B74EB172DF4120600D375BD /* Persistence.swift */,
+				1B74EB1D2DF4151C00D375BD /* PersistenceController.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B74EAE92DF3DF0800D375BD /* TradeTrail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B74EAF92DF3DF0900D375BD /* Build configuration list for PBXNativeTarget "TradeTrail" */;
+			buildPhases = (
+				1B74EAE62DF3DF0800D375BD /* Sources */,
+				1B74EAE72DF3DF0800D375BD /* Frameworks */,
+				1B74EAE82DF3DF0800D375BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradeTrail;
+			productName = "Trade Journey";
+			productReference = 1B74EAEA2DF3DF0800D375BD /* TradeTrail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B74EAE22DF3DF0800D375BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1B74EAE92DF3DF0800D375BD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 1B74EAE52DF3DF0800D375BD /* Build configuration list for PBXProject "TradeTrail" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B74EAE12DF3DF0800D375BD;
+			productRefGroup = 1B74EAEB2DF3DF0800D375BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B74EAE92DF3DF0800D375BD /* TradeTrail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B74EAE82DF3DF0800D375BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B74EAF52DF3DF0900D375BD /* Preview Assets.xcassets in Resources */,
+				1B74EAF22DF3DF0900D375BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B74EAE62DF3DF0800D375BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B74EB282DF4365700D375BD /* Array+Extentions.swift in Sources */,
+				1B74EB062DF3E1A600D375BD /* SettingsView.swift in Sources */,
+				1B74EAF02DF3DF0800D375BD /* ContentView.swift in Sources */,
+				1B74EB152DF411D700D375BD /* CoreDataTradeRepository.swift in Sources */,
+				1B74EB182DF4120600D375BD /* Persistence.swift in Sources */,
+				1B74EB222DF42C7200D375BD /* String+Extensions.swift in Sources */,
+				1B74EB242DF42FEE00D375BD /* TradeCalendarView.swift in Sources */,
+				1B74EB0E2DF3E4C200D375BD /* TradeStore.swift in Sources */,
+				1B74EB0C2DF3E35200D375BD /* CSVParser.swift in Sources */,
+				1B74EB002DF3E15B00D375BD /* ImportView.swift in Sources */,
+				1B74EAFE2DF3E13800D375BD /* DashboardView.swift in Sources */,
+				1B74EB022DF3E17300D375BD /* TradeListView.swift in Sources */,
+				1B74EB1E2DF4151C00D375BD /* PersistenceController.swift in Sources */,
+				1B74EB092DF3E33500D375BD /* TradeEntry.swift in Sources */,
+				1B74EB132DF411C900D375BD /* TradeRepository.swift in Sources */,
+				1B74EB112DF410B700D375BD /* TradeModel.xcdatamodeld in Sources */,
+				1B74EAEE2DF3DF0800D375BD /* TradeTrail.swift in Sources */,
+				1B74EB042DF3E18800D375BD /* ChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B74EAF72DF3DF0900D375BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B74EAF82DF3DF0900D375BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1B74EAFA2DF3DF0900D375BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TradeTrail/TradeTrail.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TradeTrail/Preview Content\"";
+				DEVELOPMENT_TEAM = 2JS88V684C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Trade Trail";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noor.Trade-Journey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1B74EAFB2DF3DF0900D375BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TradeTrail/TradeTrail.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TradeTrail/Preview Content\"";
+				DEVELOPMENT_TEAM = 2JS88V684C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Trade Trail";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noor.Trade-Journey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B74EAE52DF3DF0800D375BD /* Build configuration list for PBXProject "TradeTrail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B74EAF72DF3DF0900D375BD /* Debug */,
+				1B74EAF82DF3DF0900D375BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B74EAF92DF3DF0900D375BD /* Build configuration list for PBXNativeTarget "TradeTrail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B74EAFA2DF3DF0900D375BD /* Debug */,
+				1B74EAFB2DF3DF0900D375BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B74EB0F2DF410B700D375BD /* TradeModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B74EB102DF410B700D375BD /* TradeModel.xcdatamodel */,
+			);
+			currentVersion = 1B74EB102DF410B700D375BD /* TradeModel.xcdatamodel */;
+			path = TradeModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B74EAE22DF3DF0800D375BD /* Project object */;
+}
