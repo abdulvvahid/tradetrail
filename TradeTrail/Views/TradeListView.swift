@@ -14,7 +14,6 @@ struct TradeListView: View {
                         Spacer()
                         Text(trade.type)
                             .font(.subheadline)
-                            .foregroundColor(trade.type.lowercased() == "buy" ? .green : .red)
                     }
 
                     Text("Open: \(formatted(trade.openTime)) @ \(String(format: "%.2f", trade.openPrice))")

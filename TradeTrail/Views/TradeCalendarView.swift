@@ -148,7 +148,6 @@ struct TradeCalendarView: View {
                                             .font(.subheadline).bold()
                                         Spacer()
                                         Text(trade.type)
-                                            .foregroundColor(trade.type.lowercased() == "buy" ? .green : .red)
                                     }
 
                                     Text("Açılış: \(formattedTime(trade.openTime)) @ \(String(format: "%.2f", trade.openPrice))")
