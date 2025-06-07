@@ -1,18 +1,12 @@
-//
-//  TradeListView.swift
-//  Trade Journey
-//
-//  Created by Abdul Wahid Noor on 7.06.2025.
-//
-
 import SwiftUI
 
 struct TradeListView: View {
     @EnvironmentObject var tradeStore: TradeStore
+    var filterDate: Date? = nil
 
     var body: some View {
         NavigationStack {
-            List(tradeStore.trades.sorted(by: { $0.openTime > $1.openTime })) { trade in
+            List(filteredTrades.sorted(by: { $0.openTime > $1.openTime })) { trade in
                 VStack(alignment: .leading, spacing: 6) {
                     HStack {
                         Text(trade.symbol)
@@ -40,17 +34,23 @@ struct TradeListView: View {
                 .padding(.vertical, 4)
             }
             .listStyle(.plain)
-            .navigationTitle("Trades")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .navigationTitle(filterDate != nil ? "Trades on \(formatted(filterDate!))" : "All Trades")
         }
+    }
+
+    var filteredTrades: [TradeEntry] {
+        if let date = filterDate {
+            let cal = Calendar.current
+            return tradeStore.trades.filter {
+                cal.isDate($0.openTime, inSameDayAs: date)
+            }
+        }
+        return tradeStore.trades
     }
 
     func formatted(_ date: Date) -> String {
         let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd HH:mm"
+        formatter.dateFormat = "yyyy-MM-dd"
         return formatter.string(from: date)
     }
 }
-
-
-
