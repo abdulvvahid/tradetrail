@@ -15,7 +15,7 @@ struct ContentView: View {
                 NavigationLink("Dashboard", destination: DashboardView())
                 NavigationLink("Import CSV", destination: ImportView())
                 NavigationLink("Trade List", destination: TradeListView())
-                NavigationLink("Trade Chart", destination: ChartView())
+                NavigationLink("Trade Chart", destination: ChartView(tradeStore: tradeStore))
                 NavigationLink("Settings", destination: SettingsView())
                 NavigationLink("📅 Calendar", destination: TradeCalendarView(tradeStore: tradeStore))
 
